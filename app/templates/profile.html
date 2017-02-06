@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<img src="{{url_for('static',filename='Sasuke.jpg',width = 100)}}" />
+<h2 id="profile">Profile</h2>
+<h3 id= "name"> Sasuke Uchiha</h3>
+<p> Todays date is{{ time_info }} </p>
+<p>Username: Sas-U</p>
+<p>ID Number: 620088009</p>
+<p>Age: 20</p>
+<p>Gender: Male</p>
+<p>I am a legendary Rougue Ninja</p>
+
+{% endblock %}
+
